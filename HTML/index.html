@@ -1,0 +1,486 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>F&F</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/mini_logo.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/mini_logo.png">
+
+    <link rel="icon" type="image/png" sizes="96x96" href="images/mini_logo.png">
+  
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer>
+    </script>
+<script src="lib/sweetalert-dev.js"></script>
+    <link rel="stylesheet" href="lib/sweetalert.css" type="text/css">
+<style type="text/css">
+
+    #maps {
+        height: 35vw;
+        width: 100vw;
+      }
+
+    h2 {
+        color:white;
+    }
+    #pr {
+        font-size:50px;
+        color: rgb(245,65,149);
+    }
+</style>
+<body>
+	<section class="banner" role="banner">
+        <header id="header">
+            <div class="header-content clearfix">
+<!--                Logo-->
+<!--                <a class="logo" href="#"><img src="images/logo.png" alt=""></a>-->
+<!--                Navigation-->
+                <nav class="navigation" role="navigation">
+                    <ul class="primary-nav">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#works">Menu</a></li>
+                    
+                    <li> <a class="logo" href="#"><img width="50" src="images/logo.png" alt=""></a></li> 
+                  
+                        <li><a href="#teams">Our Team</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+<!--                        <li><a href="#download">Download</a></li>-->
+                    </ul>
+                </nav>
+<!--                Navigation ends-->
+                <a href="#" class="nav-toggle">Menu<span></span></a>
+            </div><!-- header content -->
+        </header><!-- header -->
+        <div class="container">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="banner-text text-center">
+<!--                    Big banner text-->
+                    <h1>F & F SMOOTHIES</h1><h2>NEXT GEN FUTURISTIC FOOD</h2>
+<!--                    description-->
+                    <p>
+All flavours <span id="pr">$12</span> each. <br>FREE Delivery Radius: 1 CUP for 10km. 2 CUPS for 20km, 3 CUPS or more for city wide. </p>
+                    <a href="#Trans1" class="btn btn-large" id="Trans1">Find out more</a>
+                </div><!-- banner text -->
+            </div>
+        </div>
+    </section><!-- banner -->
+    <section id="features" class="features section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 feature text-center">
+<!--                    span icon image-->
+                    <img src="images/icon.jpg">
+                    <div class="feature-content">
+<!--                        span header-->
+                        <h5>Easily Customised</h5>
+<!--                        span content-->
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 feature text-center">
+<!--                    span icon image-->
+                    <!-- <span class="icon icon-desktop"></span> -->
+                    <img src="images/sofa.jpg">
+                    <div class="feature-content">
+                        <h5>Responsive Ready</h5>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 feature text-center">
+                    <img src="images/drink.jpg">
+                    <div class="feature-content">
+                        <h5>Modern Design</h5>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+           
+            </div>
+        </div>
+<!--        button for second part-->
+        <div class="text-center">
+         <a href="#Trans" class="btn btn-large btn-2" id="Trans">Click to Menu</a>
+            </div>
+        
+    </section><!-- features -->
+
+    <section id="works" class="works section no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-3 col-md-6 col-sm-6 work">
+                    
+                        <img src="images/pics/advanced_berryblend1.jpg" alt="">
+                    <h6>Advanced Berry Blend</h6>
+                        <div class="original">
+                            <div class="overlay-caption">
+                                <h5>COCONUT WATER | MANGO | STRAWBERRY<br>RASPBERRY | BANANA</h5>
+                                <div id="shoppingCart"><img width="50" src="images/cart.svg"></div>
+                                <p>vitamin a 10% | vitamin c 200% calcium 4% | iron 6%</p>
+                            </div>
+                        </div><!-- overlay -->
+                    
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 work">
+                    
+                        <img src="images/pics/almondbutter1.jpg" alt="">
+                    <h6>Almond Butter</h6>
+                        <div class="original">
+                            <div class="overlay-caption">
+                                <h5>ALMOND | VANILLA | CACAO<br>BANANA | CINNAMON</h5>
+                                <div id="shoppingCart"><img width="50" src="images/cart.svg"></div>
+                                <p>vitamin a 6% | vitamin c 15% | calcium 20% | iron 25%</p>
+                            </div>
+                        </div><!-- overlay -->
+                    
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 work">
+                    
+                        <img src="images/pics/brazilian1.jpg" alt="">
+                <h6>Brazilian</h6>
+                        <div class="original">
+                            <div class="overlay-caption">
+                                <h5>ALMOND MILK | AVOCADO | MACA</h5>
+                                <div id="shoppingCart"><img width="50" src="images/cart.svg"></div>
+                                <p>vitamin a 8% | vitamin c 6% | calcium 4% | iron 15%</p>
+                            </div>
+                        </div><!-- overlay -->
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 work">
+                   
+                        <img src="images/pics/cleangreenprotein1.jpg" alt="">
+                    <h6>Clean Green Protein</h6>
+                        <div class="original">
+                            <div class="overlay-caption">
+                                <h5>ALMOND MILK | BANANA | RAW ALMOND BUTTER<br>KALE | SPINACH</h5>
+                                <div id="shoppingCart"><img width="50" src="images/cart.svg"></div>
+                                <p>vitamin a 50% | vitamin c 40% | calcium 15% | iron 40%</p>
+                            </div>
+                        </div><!-- overlay -->
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 work">
+                    
+                        <img src="images/pics/D-TOX%20SUPER%20SMOOTHIE1.jpg" alt="">
+                    <h6>D-TOX</h6>
+                        <div class="original">
+                            <div class="overlay-caption">
+                                <h5>COCONUT WATER | ACAI BERRY | CACAO<br>CASHEW | COCONUT OIL</h5>
+                                <div id="shoppingCart"><img width="50" src="images/cart.svg"></div>
+                                <p>vitamin a 15% | vitamin c 6% | calcium 10% | iron 45%</p>
+                            </div>
+                        </div><!-- overlay -->
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 work">
+                
+                        <img src="images/pics/heavenonearth_smoothie1.jpg" alt="">
+                    <h6>Heaven on Earth</h6>
+                        <div class="original">
+                            <div class="overlay-caption">
+                                <h5>RAW ALMOND BUTTER | BANANA | CACAO<br>ALMOND MILK | COCONUT OIL</h5>
+                                <div id="shoppingCart"><img width="50" src="images/cart.svg"></div>
+                                <p>vitamin a 8% | vitamin c 15% | calcium 15% | iron 25%</p>
+                            </div>
+                        </div><!-- overlay -->
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 work">
+                    
+                        <img src="images/pics/theguru1.jpg" alt="">
+                    <h6>Life force Protein</h6>
+                        <div class="original">
+                            <div class="overlay-caption">
+                            <h5>COCONUT WATER | BLUEBERRY | AVOCADO<br>VANILLA | COCONUT OIL</h5>
+                                <div id="shoppingCart"><img width="50" src="images/cart.svg"></div>
+                                <p>vitamin a 4% | vitamin c 550% | calcium 4% | iron 10%</p>
+                            </div>
+                        </div><!-- overlay -->
+                  
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 work">
+                 
+                        <img src="images/pics/JPblackspirit1.jpg" alt="">
+                    <h6>HAWAIIAN HEALER</h6>
+                        <div class="original">
+                            <div class="overlay-caption">
+                                <h5>COCONUT WATER | BANANA | CINNAMON<br>GINGER | PINEAPPLE</h5>
+                                <div id="shoppingCart"><img width="50" src="images/cart.svg"></div>
+                                <p>vitamin a 2% | vitamin c 100% | calcium 4% | iron 4%</p>
+                                
+                            </div>
+                        </div><!-- overlay -->
+                    </a>
+                </div>
+                 <div class="col-lg-3 col-md-6 col-sm-6 work">
+                  
+                        <img src="images/pics/lifeforceprotein1.jpg" alt="">
+                     <h6>Black Spirit</h6>
+                        <div class="original">
+                            <div class="overlay-caption">
+                                <h5>COCONUT WATER | BANANA | DATE<br>ALMOND | COCONUT OIL</h5>
+                                <div id="shoppingCart"><img width="50" src="images/cart.svg"></div>
+                                <p>vitamin a 2% | vitamin c 8% | calcium 15% | iron 8%</p>
+                            </div>
+                        </div><!-- overlay -->
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 work">
+                 
+                        <img src="images/pics/pinacolada1.jpg" alt="">
+                    <h6>Pinacolada</h6>
+                        <div class="original">
+                            <div class="overlay-caption">
+                                <h5>COCONUT WATER | BANANA | LEMON<br>PINEAPPLE | COCONUT OIL</h5>
+                                <div id="shoppingCart"><img width="50" src="images/cart.svg"></div>
+                                <p>vitamin a 0% | vitamin c 80% | calcium 4% | iron 10%</p>
+                            </div>
+                        </div><!-- overlay -->
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 work">
+                   
+                        <img src="images/pics/rainforest1.jpg" alt="">
+                    <h6>Rainforest</h6>
+                        <div class="original">
+                            <div class="overlay-caption">
+                                <h5>COCONUT WATER | BANANA | GINGER<br>LEMON | PINEAPPLE</h5>
+                                <div id="shoppingCart"><img width="50" src="images/cart.svg"></div>
+                                <p>vitamin a 45% | vitamin c 120% | calcium 8% | iron 15%</p>
+                            </div>
+                        </div><!-- overlay -->
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 work">
+                  
+                        <img src="images/pics/shake-strawberryshake1.jpg" alt="">
+                    <h6>Strawberry Shake</h6>
+                        <div class="original">
+                            <div class="overlay-caption">
+                                <h5>ALMOND MILK | STRAWBERRY<br>RAW ALMOND BUTTER</h5>
+                                <div id="shoppingCart"><img width="50" src="images/cart.svg"></div>
+                                <p>vitamin a 6% | vitamin c 150% | calcium 10% | iron 15%</p>
+                            </div>
+                        </div><!-- overlay -->
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section><!-- works -->
+
+ <section id="download" class="section download">
+        <div class="container">
+            <div class="col-md-8 col-md-offset-2 text-center">
+                <h3>Are You Ready to Start? Download Now For Free!</h3>
+                <p>Fusce dapibus, tellus ac cursus commodo</p>
+                <a href="#" class="btn btn-large btn-2" id="pay">Click to Pay</a>
+            </div>
+            
+        </div>
+    </section><!-- pay -->
+<section>
+<div id="maps"></div>
+</section>
+
+    <section id="teams" class="section teams">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="person">
+                        <img src="images/team-1.jpg" alt="" class="img-responsive">
+                        <div class="person-content">
+                            <h4>Peter  Guo</h4>
+                            <h5 class="role">General Manager</h5>
+                            <p>Flawless and Fortissimo </br></br>
+Peter is a professional entrepreneur who worked for several famous firms including KPMG, Deloitte, Microsoft and National Pacific Exhibition. He is a dreamer but also a believer, and thus comes F&F where he can devote himself into creating a healthy alternative for people who pursue a healthy lifestyle.
+</p>
+                        </div>
+                        
+                    </div><!-- person -->
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="person">
+                        <img src="images/team-2.jpg" alt="" class="img-responsive">
+                        <div class="person-content">
+                            <h4>Wei Xu</h4>
+                            <h5 class="role">Chef</h5>
+                            <p>Flavoursome and Flamboyant </br></br>
+With more than 10 years of cooking and gourmet experience, Wei is a dedicated chef who focuses on delivering the best-flavoured food and drinks possible. In F&F, Wei tries to bring his customers with smoothies that are delicious and fit different customers’ taste
+</p>
+                        </div>
+                        <
+                    </div><!-- person -->
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="person">
+                        <img src="images/team-3.jpg" alt="" class="img-responsive">
+                        <div class="person-content">
+                            <h4>Syrena</h4>
+                            <h5 class="role">Nutritionist</h5>
+                            <p>Fragrant and Floral </br></br>
+If you ever want to stay fit and find out what is the most healthy meal plan for you, Syrena is the person to talk to. A gorgeous nutritionist that is full of care and affection, she is dedicated to provide the healthiest plans for customers.
+</p>
+                        </div>
+                       
+                    </div><!-- person -->
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="person">
+                        <img src="images/team-4.jpg" alt="" class="img-responsive">
+                        <div class="person-content">
+                            <h4>Toby Yu</h4>
+                            <h5 class="role">Delivery Master</h5>
+                            <p>Fast and Furious </br></br>
+                            A good driver, an outstanding server, good attitude, friendly customer service, there is no better individual that you can meet other than Toby. No matter when you order your meal from us, as long as it’s within our operating time you will for sure see Toby in less than 30 minutes.</p>
+                        </div>
+<!--
+                        <ul class="social-icons clearfix">
+                            <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="#" class=""><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="#" class=""><span class="fa fa-linkedin"></span></a></li>
+                            <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li>
+                            <li><a href="#" class=""><span class="fa fa-dribbble"></span></a></li>
+                        </ul>
+-->
+                    </div><!-- person -->
+                </div>
+            </div>
+        </div>
+    </section><!-- teams -->
+
+    <section id="testimonials" class="section testimonials no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <div class="col-md-6">
+                                <div class="avatar">
+                                     <img src="images/testimonial-1.jpg" alt="" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <blockquote>
+                                    <p>"We have passed this place several times, But I've never been there. My friend goes there a lot and he brought me last week. The smoothies were amazing. I will definitely be back!"
+                                    </p>
+                                    <cite class="author">Michael Johnson and Mary Gomez</cite>
+                                </blockquote>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col-md-6">
+                                <div class="avatar">
+                                     <img src="images/testimonial-2.jpg" alt="" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <blockquote>
+                                    <p>"The smoothies were FANTASTIC! I had the strawberries flavor and it was the best one I have ever had. "
+                                    </p>
+                                    <cite class="author">Jessie Amundson</cite>
+                                </blockquote>
+                            </div>
+                        </li>
+                         <li>
+                            <div class="col-md-6">
+                                <div class="avatar">
+                                     <img src="images/testimonial-3.jpg" alt="" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <blockquote>
+                                    <p>"Fast deliver, nutrious and delicious smoothies. I would definitely have this everyday of my busy life."
+                                    </p>
+                                    <cite class="author">Linda Baker</cite>
+                                </blockquote>
+                            </div>
+                        </li>
+                         <li>
+                            <div class="col-md-6">
+                                <div class="avatar">
+                                     <img src="images/testimonial-4.jpg" alt="" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <blockquote>
+                                    <p>"One of my favorite things about visiting Vancouver is having smoothies at this restaurant! Great service, good food and lovely Roman inspired atmosphere."
+                                    </p>
+                                    <cite class="author">Rosie Wheeler</cite>
+                                </blockquote>
+                            </div>
+                        </li>
+                    </ul>
+                </div><!-- flexslider -->
+            </div>
+        </div>
+    </section><!-- testimonials -->
+
+   
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h5>Location</h5>
+                        <p>555 Seymour St<br>Vancouver, BC V6B 3H6</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h5>Share with Love</h5>
+                        <ul class="footer-share">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h5>About ActiveBox</h5>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- footer top -->
+        <div class="footer-bottom">
+            <div class="container">
+
+            </div>
+        </div>
+    </footer><!-- footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/retina.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/main.js"></script>
+    
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+       
+        ga('create', 'UA-XXXX-X');
+        ga('send', 'pageview');
+
+
+
+    </script>
+</body>
+</html>
